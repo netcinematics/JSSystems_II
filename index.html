@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>JSSystemsII Presentation</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+		
+		<style>
+			.subtext{
+				font-size: .6em !important;
+				font-style: italic !important;
+				position: absolute !important;
+				bottom: -100px !important;
+				border-top: 1px solid #bbb !important;
+				padding-top: 10px !important;
+			}
+			.subtext a{ padding-top:9px;}
+			.supertext{
+				color: #aaa;
+				font-size: .8em !important;
+				font-style: italic !important;
+				position: absolute !important;
+				top: -100px !important;
+				border-bottom: 1px solid #ccc !important;
+				padding-bottom: 10px !important;				
+			}
+			.question{
+				color: #444;
+				font-size: .8em !important;
+				font-style: italic !important;
+				padding-bottom: 40px !important;
+			}
+			.imageblock{
+				float:left;
+				margin-left:20px;
+				height:150px;
+			}
+			img {
+				border:6px solid #eee !important;
+				margin: 4px !important;
+			}
+			.tweet{
+				height:80px;
+				margin-top:40px !important;
+			}
+			.bulletpoint{
+				font-weight: bold;
+				margin-top: 6px !important;
+				margin-bottom: 6px !important;
+				color:#666;
+			}
+			p{
+				margin:20px;
+			}
+			.nicetext{
+				font-size:26px !important;
+			}
+			.smalltext{
+				font-size:20px !important;
+			}
+
+			.mainPoint{
+				border: 2px #CCC solid;
+				border-radius: 50px;
+				background-color: #AAA 
+			}
+
+			.textbox{
+				border-radius:10px;
+				border: #777 solid 1px !important;
+				padding-top: 30px !important;
+				padding-bottom: 20px !important;
+				font-size: 24px !important;
+				background: #eee;
+			}
+
+
+
+	.subtext{ width:100% !important; text-align:right !important; margin-right:120px !important; padding-right:20px !important;}
+
+		</style>
+		
+		
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+            <section>
+				<section>
+					<!--h1>Introducing</h1-->
+					<h2>JS Systems II</h2>
+					<br/>
+					~Fruit Salad~
+					<br/>
+					<br/>
+					<p>
+						<small><a href="http://adaptivepatterns.net">www.adaptivepatterns.net</a> / <a href="http://twitter.com/adaptivepattern">@adaptivepattern</a></small>
+					</p>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<div class="supertext">A bit about me...</div>
+					
+					<div class="nicetext">
+					   <div class="fragment">- Clint Nash - A JS Architect. </div><br>
+					   <div class="fragment textbox">Varied software innovation:<br> Web Video, Analytics, GeoSpatial, Financial, Legal,<br> Custom Components, AI, IoT,<br> Music Composition Systems...</div>
+					 </div>
+					
+				</section>
+			</section>
+
+			<section>
+				<section>
+<div class="supertext">Premise:</div>
+<div class="">~Studying the variation of JavaScript, reveals a vast and expanding variety of ecosystem.</div>
+<div class="fragment subtext">We can reference the many ecosytems shorthand as - JS Systems.</div>
+
+				</section>
+			</section>
+
+
+			<section>
+				<section>
+~ And now we can visualize them in a D3 chart.<br><br>
+<div class="fragment nicetext">It looks like this...</div>
+
+				</section>
+			</section>
+
+
+			<section>
+				<section>
+					<h3>JavaScript Systems...</h3>
+					<img style="height:450px" src="http://adaptivepatterns.net/jssystems/img/charts/JSSystems.png">
+					<div class="nicetext subtext "><a href="http://www.adaptivepatterns.net/jssystems/">adaptivepatterns.net/jssystems</a></div>
+				</section>
+			</section>
+
+
+			<section>
+				<section>
+
+~The importance of this study is that it reveals new knowledge and methodology.
+
+				</section>
+			</section>
+
+
+			<section>
+				<section>
+
+Quick examples of new knowledge...<br><br>
+<div class="nicetext"> is that we can visualize how JS has grown... and how fast. </div>
+
+				</section>
+			</section>
+
+			<section>
+				<section>
+<div class="supertext">The sheer volume of JS ...</div>
+<img src="http://www.adaptivepatterns.net/jssystems/img/charts/jssystem_bigpicture.png">
+<div class="subtext">Depth and Breadth of JS Systems.</div>
+				</section>
+			</section>
+
+			<section>
+				<section>
+<div class="supertext">Approaching Intersection...</div>
+  <img height="400px" src="http://adaptivepatterns.net/jssystems/img/charts/modulecnts-NPM.png">
+  <div class="subtext">
+  The red line is NPM package contribution beginning 2012. From <a href="http://modulecounts.com">modulecounts.com</a></div>
+				</section>
+			</section>
+
+			<section>
+				<section>
+
+<div class="supertext">And for the methodology...</div>
+
+ <div class=" fragment">New methodology is the sequel... to new knowledge.</div><br>
+ <div class="nicetext fragment">And that is what I propose for you today.</div>
+<br>
+ <div class="fragment">It starts with a metaphor of: Invisible Fruit...</div>
+ 
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h2>JS Systems II</h2>
+					<br/>
+					~The Invisible Fruit~
+<div class="subtext fragment">Please consider this...</div>
+				</section>
+			</section>
+
+			<section>
+				<section>
+<img class="imagebox" src="./img/fruitlist.jpeg">
+<div class="textbox">
+~ Software innovation is an Invisible Fruit.<br> In that,
+we cannot know how it will taste - until after we bite in.
+</div>
+				</section>
+			</section>
+
+			<section>
+				<section>
+
+~ This is especially true for new technology<br> in the open-source community.
+
+				</section>
+			</section>
+
+			<section>
+				<section>
+<div class="supertext">To understand these ecosystems...</div>
+We can apply the metaphor to reality.
+<br><br>
+ <div class="nicetext fragment">A thought experiment of Taste and Invisibility.</div>
+<div class="subtext fragment">Here goes... Invisible Fruit</div>
+				</section>
+			</section>
+
+			<section>
+				<section>
+<div class="supertext">TASTE - Point 1:</div>
+If you bite too aggressively into any new software you may be surprised by what you find!
+<br><br>
+ <div class="nicetext fragment">
+Maybe it is a pit, a core, or maybe we need to peel the fruit first, before enjoying it.</div>
+ <div class="subtext fragment">Just nobody mentioned it... sound familiar?</div>
+				</section>
+			</section>
+
+			<section>
+				<section>
+
+<div class="supertext">TASTE - Point 2:</div>
+This causes us to be rightfully hesitant when reviewing new innovation.
+<br><br>
+ <div class="nicetext fragment">
+But it is not all bad, because we learn to peel the orange, or spit out the pit...</div>
+<br><br>
+				</section>
+			</section>
+
+			<section>
+				<section>
+
+<div class="supertext">TASTE - Point 3:</div>
+In JS Systems we can see where new innovation capitalizes on lessons of the past.
+<br><br>
+ <div class="textbox fragment">
+prototype -> jQuery, <br>Backbone -> Angular, <br>grunt -> gulp,<br> Cordova -> Firefox OS.</div>
+<div class="subtext fragment">
+Our search for the "seedless watermelon", produces a fruit that is (for the moment) easier to consume.
+
+				</section>
+			</section>
+
+			<section>
+				<section>
+<div class="supertext">But...</div> Software has an added challenge compared to "real" fruit.<br><br>
+<div class="nicetext fragment">In that our systems are physically and conceptually...</div><br>
+<div class="fragment"><h2>INVISIBLE.</h2>
+<img style="opacity:.25" class="imagebox" src="./img/fruitvariety.jpeg">
+</div>
+
+				</section>
+			</section>
+
+			<section>
+				<section>
+<div class="supertext">Conceptual Invisibility - Point 1:</div>
+
+   days, weeks, months, years after evaluating software...<br><br>
+
+   <div class="fragment">You may be very surprized by what you find!!</div>
+<br>
+   <div class="fragment nicetext">There are any unforseen consequences in architecture... <br>(spaghetti, callback-hell, bloat, etc)</div>
+   <div class="subtext fragment">Right??</div>
+
+				</section>
+			</section>
+
+			<section>
+				<section>
+<div class="supertext">Physical Invisibility - Point 2:</div> 
+JS is just as invisible physically.<br><br>
+ <div class="fragment nicetext">Does anyone know how many JS libraries, frameworks, packages, and utilities exist on this planet today?</div>
+<div class="subtext fragment">From a scientific perspective - can we count them? </div>
+				</section>
+			</section>
+
+			<section>
+				<section>
+<div class="supertext">Invisibility - Point 3:</div>
+~ I believe the full depth and breadth of JS is an unquantifiable number.
+<br><br>
+<div class="textbox fragment">
+At some threshold - NO ONE will understand ALL of JS.
+</div>
+<div class="subtext fragment">Maybe we silently passed that point...already. - The Human Threshold</div>
+
+				</section>
+			</section>
+
+			<section>
+				<section>
+<div class="supertext">Because...</div>
+Even if we did collect and measure the amalgam of JS...<br><br>
+<div class="nicetext fragment">new incarnations of the web are emerging concurrently.<br><br>
+<div class="nicetext fragment">It is a continual process - accelerating at the speed of open-source.</div>
+<div class="subtext fragment">How fast is that?</div>
+				</section>
+			</section>
+
+			<section>
+				<section>
+<div class=""><h4>Projected NPM growth rate (a measley two years).</h4></div>
+<img height="400px" src="http://www.adaptivepatterns.net/jssystems/img/charts/impossible-curve.png">
+<div class="bulletpoint nicetext smalltext">
+ NPM contribution image by Mikeal at <a style="padding-top:9px" href="http://www.futurealoof.com/posts/open-source-ecosystem-growth.html">Future Aloof</a>
+
+				</section>
+			</section>
+
+			<section>
+				<section>
+<div class="supertext">And...</div>
+This is only Node.js!<br><br>
+<div class="fragment nicetext">
+What about the rest of JS?</div>
+
+				</section>
+			</section>
+
+			<section>
+				<section>
+<div class="supertext">We can look at GitHub...</div>
+<img height="400px" src="http://adaptivepatterns.net/jssystems/img/charts/redmonk-githug.png">
+<div class="bulletpoint nicetext smalltext">
+ In 2013 JS GitHub contribution is on the rise. Compelling RedMonk to name JS the number one language in January 2014. <a style="padding-top:9px" href="http://redmonk.com/jgovernor/2013/11/01/one-chart-that-tells-you-everything-you-need-to-know-about-github-going-mainstream/">Red Monk.</a>
+				</section>
+			</section>
+
+			<section>
+				<section>
+<div class="supertext">All in all...</div>					
+The point is simply this:<br><br>
+<div class="fragment textbox">~ We like to think that we know everything about the Language of the Web.<br>
+But in reality... the vast majority of JS is segmented, diverse, and obscured.</div>
+<div class="subtext fragment">How is it valuable to realize JS is larger than we think?</div>
+				</section>
+			</section>
+
+			<section>
+				<section>
+<div class="supertext">A few examples are systems like:	</div>	
+<div class="fragment textbox">
+JS-IoT (Internet of Things)<br>
+FSJS (FullStack JavaScript)<br>
+JSOS (JavaScript Operating Systems)<br>
+and of course ES6. 
+</div><br>
+<div class="nicetext fragment">How will these impact JavaScript in 5 years?</div>
+<div class="subtext fragment">Will we know... if we can't even measure it?</div>
+				</section>
+			</section>
+
+			<section>
+				<section>
+<div class="supertext">We won't...</div>
+<div class="fragment"> because JS will be just as invisible as it is now...</div><br><br>
+<div class="fragment textbox">
+In closing, what can we learn from this?<br>
+How can this inform your profession?<br>
+How can this impact your life?
+</div>
+
+				</section>
+			</section>
+
+			<section>
+				<section>
+1. We have to take a bite of any software to get a taste.<br>
+<div class=" nicetext">
+       - this is the natural process of discovery.</div><br>
+<div class="fragment ">
+2. We are often surprised by what we find!
+<div class="nicetext">
+       - but should we obsess on details, or just eat the fruit?</div></div><br>
+<div class="fragment">
+3. A growing abundance is clear.
+<div class=" nicetext">
+       - we learn from our past, and we have many choices ahead.</div></div><br>
+<div class="fragment subtext">
+In other words, we seek the seedless watermelon...
+</div>
+				</section>
+			</section>
+
+
+			<section>
+				<section>
+~ Invisible Fruit is the blessing and a curse:<br><br>
+<div class="fragment textbox">
+Because it is NOT our job to complain about the pits and the peels - <br> but it IS our job to build the fruit salad.</div><br>
+<img class="imagebox" src="./img/fruitsalad.jpeg">
+				</section>
+			</section>
+
+			<section>
+				<section>
+And that, is the job of the... 
+<br><br><div class="fragment"> JavaScript Architect.</div>
+
+				</section>
+			</section>
+
+			<section>
+				<section>
+
+~ Please support
+JavaScript Computer Science.
+
+
+				</section>
+			</section>
+
+			<section>
+				<section>
+<h2>THANK YOU!</h2><br><br>
+
+<div class="nicetext"> Clint Nash - @adaptivepattern</div>
+<div class="subtext">
+I have stickers - please come talk...
+</div>
+				</section>
+			</section>
+
+
+
+
+            <!--/******************TEMPLATE***************>
+				<section>
+					<div class="supertext">Supertext</div>
+					<p class="bulletpoint">
+						<h3>H3</h3>
+					</p>
+					<p class="bulletpoint fragment nicetext">
+						Bulletpoint fragment?
+					</p>
+					<p class="question fragment">
+						Bullet question fragment
+					</p>
+					<p class="subtext fragment">
+						subtext fragment
+					</p>
+
+				</section>
+            <!--/******************TEMPLATE***************-->
+
+			<section>
+				<section>
+<div class="supertext">Code Example:
+</div>
+  Find the study of JavaScript Systems at <a href="http://www.adaptivepatterns.net/blog/">http://www.adaptivepatterns.net/blog/</a><br><br>
+<div class="fragment nicetext">
+   Follow the JS Systems Web App at:<br>
+   <a href="http://www.adaptivepatterns.net/jssystems/">adaptivepatterns.net/jssystems</a><br>
+
+</div><br>
+<div class="fragment nicetext">
+<a href="https://github.com/JSRenaissance/JSSystems">open-source on GitHub!</a>
+</div>
+
+
+
+
+
+
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

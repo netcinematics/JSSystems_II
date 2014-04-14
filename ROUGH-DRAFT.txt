@@ -1,0 +1,144 @@
+ROUGH-DRAFT: 
+
+
+JSSystems II - The Invisible Fruit.
+#IMG - JS
+
+
+Clint Nash - JS Architect
+Various areas of study: Video, Musical, GeoSpatial, Financial, InfoSec, Social-Media Systems...
+#adaptivepattern
+
+~Studying the variation of JS reveals a variety of ecosystems.
+We can call these JS Systems for short.
+
+Recently I categorized a few of the many into a D3 chart.
+It looked like this:
+
+#IMG - normal look
+#LINK JSSystems
+
+The importance of that study was that it reveals new knowledge that informs methodology.
+
+One example of new knowledge is that we can visualize how JS has grown... and how fast. 
+
+
+The sheer volume...
+#IMG - JS Cluster
+
+The coming Inflection Point...
+#IMG - Growth curve one
+#Mikeal reference and link.
+
+But the new methodology comes from the analysis of this data.
+And one very small part that I will propose to you today.
+
+It starts with the metaphor of Invisible Fruit.
+So this is...
+
+JS Systems II
+THE INVISIBLE FRUIT
+
+#IMG - four fruits.
+All software is an invisible fruit.
+We cannot know how it tastes - until we bite in.
+
+This is especially true for new technologies and the open-source community in JS.
+We can learn from this metaphor by applying it to reality.
+In two specific aspects: Taste and Invisibility.
+Here is what I mean...
+
+TASTE - Point 1:
+If you bite too aggressively into any new software you may be surprised by a pit.
+Or maybe you needed to first peel the fruit, before enjoying it.
+
+TASTE - Point 2:
+This causes us to be rightfully hesitant when reviewing new software.
+But it is not all bad, because we quickly learn to peel the rind and spit out the pit.
+And become capable of exploring new fruit.
+
+TASTE - Point 3:
+In JS Systems we can see new innovation capitalize on the lessons of the past.
+Producing a new fruit that is for the moment - easier to consume.
+prototype -> jQuery, backbone -> Angular, grunt -> gulp, Cordova -> Firefox OS.
+
+These are examples from four (very) different JS Ecosystems.
+And if considered a "Fruit" they are in effect...
+in reality, very much...
+INVISIBLE.
+Here is how...
+
+INVISIBLE - Point 1:
+Can you tell me how many JS libraries, frameworks, packages, and utilities exist?
+As a scientific study - can we count them?
+No we can't.
+
+INVISIBLE - Point 2:
+I propose to you that the depth and breadth of JS is an unquantifiable number.
+The growth of JS is Invisible to our ability to see and also (increasingly) to comprehend.
+At some point no one will understand ALL of JS.
+And maybe we've already silently passed this point...
+
+INVISIBLE - Point 3:
+Because even if we did collect and measure the myriad variety of JS
+a new incarnation of the web would surely exist in that time.
+This is a continuous process.
+
+Not only can we not quantify what exists now...
+But we cannot quantify what existed in the past,
+and we cannot quantify the full rate at which JS advances.
+
+Growth curve of NPM Package Contributions through #year
+#IMG - predicted growth
+By #Mikeal #link
+
+This is only Node.js
+The rest of JS is far more abundant.
+
+We can look at GitHub and see contribution growth...
+#IMG
+
+But the point here is simply that the vast majority of JS remains unmentioned, and unmeasured.
+JS is an invisible fruit.
+
+So what can we learn from this?
+How does this impact your life?
+
+1. You have to take a bite of any new technology to get a taste.
+       - and this is the natural.
+2. You may be surprised by a pit or a peel.
+       - but should we obsess on these details?
+       - refuting one fruit or dogmatically only eating one other?
+3. Because a growing abundance of fruit is clear.
+       - and we learn from our past.
+
+
+So we should be adaptive.
+This is a blessing and a curse.
+
+Because it is not your job to complain about the pits and the peels - it is your job to build the fruit salad.
+
+That is... if you are a JavaScript Architect.
+
+
+~ Please support
+JavaScript Computer Science.
+
+THANK YOU!
+
+Clint Nash - @adaptivepattern
+
+I have stickers - come talk to me...
+
+
+
+
+
+
+
+
+
+
+
+
+
